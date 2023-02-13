@@ -110,8 +110,7 @@ EOF  help  quit
 **show**        | Prints the string representation of an instance based on the class name and `id`  |  **show <class name\> <id\>** --or-- **<class name\>.show(<id\>)**
 **destroy**     | Deletes an instance based on the class name and `id` (saves the change into a JSON file).  | **destroy <class name\> <id\>** --or-- **<class name>.destroy(<id>)**
 **all**         | Prints all string representation of all instances based or not on the class name.  | By itself or **all <class name\>** --or-- **<class name\>.all()**
-**update**      | Updates an instance based on the class name and `id` by adding or updating attribute (saves the changes into a JSON file).  | *update <class name\> <id\> <attribute name\> "<attribute value\>"** ---or--- **<class name\>.update(<id\>, <attribute name\>, <attribute value\>)** --or\
--- **<class name\>.update(<id\>, <dictionary representation\>)**
+**update**      | Updates an instance based on the class name and `id` by adding or updating attribute (saves the changes into a JSON file).  | *update <class name\> <id\> <attribute name\> "<attribute value\>"** ---or--- **<class name\>.update(<id\>, <attribute name\>, <attribute value\>)** --or\-- **<class name\>.update(<id\>, <dictionary representation\>)**
 **count**       | Retrieve the number of instances of a class.  | **<class name\>.count()**
 
 ## Authors
