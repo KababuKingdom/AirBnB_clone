@@ -1,8 +1,14 @@
 # The AirBnB Clone Project
-![AirBnB Logo](https://www.pngitem.com/pimgs/m/132-1322125_transparent-background-airbnb-logo-hd-png-download.png)
+![image](https://user-images.githubusercontent.com/27401241/123797101-816aac80-d8ee-11eb-8aac-13362397f7fa.png)
 
 ## Project Description
-This is the first part of the AirBnB clone project where we worked on the backend of the project whiles interfacing it with a console application with the help of the cmd module in python.
+The AirBnB clone project is a simple copy of the [AirBnB website](https://alx-intranet.hbtn.io/rltoken/m8g02HcD2ovrl_K-zulYBw) that will be deployed on a server.
+
+It implements only some of the features that cover fundamental concepts of the higher level programming track.
+
+## Components
+
+This project will be built step by step not all at once. It has different components.
 
 Data (python objects) generated are stored in a json file and can be accessed with the help of the json module in python
 
@@ -32,8 +38,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
-```
-git clone https://github.com/jzamora5/AirBnB_clone.git
+
+git clone https://github.com/kababukingdom/AirBnB_clone.git
 ```
 After cloning the repository you will have a folder called AirBnB_clone. In here there will be several files that allow the program to work.
 
@@ -141,28 +147,15 @@ user@ubuntu:~/AirBnB$ ./console.py
 
 The recognizable commands by the interpreter are the following:
 
-|Command| Description |
-|--|--|
-| **quit or EOF** | Exits the program |
-| **Usage** | By itself |
-| **-----** | **-----** |
-| **help** | Provides a text describing how to use a command.  |
-| **Usage** | By itself --or-- **help <command\>** |
-| **-----** | **-----** |
-| **create** | Creates a new instance of a valid `Class`, saves it (to the JSON file) and prints the `id`.  Valid classes are: BaseModel, User, State, City, Amenity, Place, Review. |
-| **Usage** | **create <class name\>**|
-| **-----** | **-----** |
-| **show** | Prints the string representation of an instance based on the class name and `id`  |
-| **Usage** | **show <class name\> <id\>** --or-- **<class name\>.show(<id\>)**|
-| **-----** | **-----** |
-| **destroy** | Deletes an instance based on the class name and `id` (saves the change into a JSON file).  |
-| **Usage** | **destroy <class name\> <id\>** --or-- **<class name>.destroy(<id>)** |
-| **-----** | **-----** |
-| **all** | Prints all string representation of all instances based or not on the class name.  |
-| **Usage** | By itself or **all <class name\>** --or-- **<class name\>.all()** |
-| **-----** | **-----** |
-| **update** | Updates an instance based on the class name and `id` by adding or updating attribute (saves the changes into a JSON file).  |
-| **Usage** | **update <class name\> <id\> <attribute name\> "<attribute value\>"** ---or--- **<class name\>.update(<id\>, <attribute name\>, <attribute value\>)** --or-- **<class name\>.update(<id\>, <dictionary representation\>)**|
-| **-----** | **-----** |
-| **count** | Retrieve the number of instances of a class.  |
-| **Usage** | **<class name\>.count()** |
+|Command| Description | Usage |
+|--|--| -- |
+| **quit or EOF** | Exits the program | By itself |
+| **help** | Provides a text describing how to use a command.  |  By itself --or-- **help <command\>** |
+| **create** | Creates a new instance of a valid `Class`, saves it (to the JSON file) and prints the `id`.  Valid classes are: BaseModel, User, State, City, Amenity, Place, Review. | **create <class name\>**| 
+| **show** | Prints the string representation of an instance based on the class name and `id`  |  **show <class name\> <id\>** --or-- **<class name\>.show(<id\>)**|
+| **destroy** | Deletes an instance based on the class name and `id` (saves the change into a JSON file).  | **destroy <class name\> <id\>** --or-- **<class name>.destroy(<id>)** |
+| **all** | Prints all string representation of all instances based or not on the class name.  | By itself or **all <class name\>** --or-- **<class name\>.all()** |
+| **update** | Updates an instance based on the class name and `id` by adding or updating attribute (saves the changes into a JSON file).  | *update <class name\> <id\> <attribute name\> "<attribute value\>"** ---or--- **<class name\>.update(<id\>, <attribute name\>, <attribute value\>)** --or\
+-- **<class name\>.update(<id\>, <dictionary representation\>)**|
+| **count** | Retrieve the number of instances of a class.  | **<class name\>.count()** |
+
